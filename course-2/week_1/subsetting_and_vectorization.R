@@ -62,6 +62,8 @@ x <- 1:4
 y <- 6:9
 x+y # Simply add the vectors
 x >= 3 # Compare a vector with a scalar
+# If the vectors are of different lengths, R 'recycles' the shorter vector until it is the same length as the longer vector.
+
 
 # Vectorization for Matrices
 x <- matrix(1:4, 2, 2)
